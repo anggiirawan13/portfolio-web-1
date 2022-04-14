@@ -75,6 +75,7 @@ header .container #hamburger:hover {
 
 #sidebar-menu {
     display: none;
+    position: fixed;
 }
 
 #sidebar {
