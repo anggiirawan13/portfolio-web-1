@@ -18,6 +18,10 @@ a {
     text-decoration: none;
 }
 
+#about, #skills, #portfolio {
+    padding: 4rem 0;
+}
+
 header, #skills, #contact {
     background-color: rgb(240, 244, 248);
 }
@@ -75,7 +79,6 @@ header .container #hamburger:hover {
 
 #sidebar-menu {
     display: none;
-    position: fixed;
 }
 
 #sidebar {
@@ -87,6 +90,7 @@ header .container #hamburger:hover {
     background-color: rgba(16, 47, 80, .9);
     transition: .3s;
     z-index: 1;
+    height: 100%;
 }
 
 #sidebar ul a li {
@@ -111,6 +115,10 @@ header .container #hamburger:hover {
 header {
     height: 70px;
     width: 100%;
+    position: fixed;
+    z-index: 1;
+    margin-bottom: 10px;
+    border-bottom: 1px solid rgb(16, 47, 80);
 }
 
 header .container h1 {
@@ -156,7 +164,7 @@ header .container ul li a:hover {
     width: 13%;
     border-radius: 10%;
     box-shadow: 0 13px 23px #ddd;
-    margin-bottom: 10px;
+    margin-top: 20px;
 }
 
 #banner .container #left-banner h2,
@@ -414,10 +422,18 @@ footer .container small {
     header {
         font-size: 13px;
     }
+
+    #sidebar {
+        top: 70px;
+    }
 }
 
 @media (min-width: 769px) {
     #sidebar {
         display: none;
+    }
+
+    #sidebar {
+        top: 70px;
     }
 }
