@@ -409,6 +409,12 @@ footer .container small {
     }
 }
 
+@media (max-width: 369px){
+    header {
+        font-size: 13px;
+    }
+}
+
 @media (min-width: 769px) {
     #sidebar {
         display: none;
