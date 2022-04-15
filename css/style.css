@@ -23,7 +23,8 @@ header,
 #about .container h3,
 #skills .container h3,
 #portfolio .container h3,
-#contact .container h3 {
+#contact .container h3,
+.html, .css, .react, .java {
     overflow-y: hidden;
 }
 
@@ -214,7 +215,7 @@ header .container ul li a:hover {
 #skills .container .bar .value {
     height: 30px;
     background-color: #F84744;
-    display: inline-block;
+    display: block;
     text-align: center;
     color: #fff;
 }
@@ -224,7 +225,6 @@ header .container ul li a:hover {
 }
 
 #skills .container .bar .css {
-    margin-top: 10px;
     width: 60%;
 }
 
@@ -233,7 +233,6 @@ header .container ul li a:hover {
 }
 
 #skills .container .bar .java {
-    margin-top: 10px;
     width: 80%;
 }
 
